@@ -31,7 +31,7 @@ docker exec -it "IndigoROSdisPyPl" bash
 export ROS_MASTER_URI="http://127.0.0.1:11311"
 export ROS_HOSTNAME="127.0.0.1"
 export ROS_IP="127.0.0.1"
-`       ```
+```
  6.  **To add ROS environment variables to the bash:**
 ```sh
 echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
@@ -58,11 +58,11 @@ source catkin_ws/devel/setup.bash
 ```sh
 gazebo
 ```
-     **or** 
+**or** 
 ```sh
 roslaunch gazebo YourFile.launch
 ```
-     **or** 
+**or** 
 ```sh
 rosrun gazebo_ros YourExecutable
 ```
