@@ -1,6 +1,7 @@
 # docker-IndigoROSdisPyPl
-A Docker container with Ubuntu 14, ROS Indigo, Gazebo, Redis, Python 3 and SWI-Prolog (it is compatible with SICStus Prolog and contains all its dependencies, so you can buy and install it too inside this container). \
-ROS ad the catkin workspace are still configured and you just can use all the environment without the need to configure them, but if you have to change something in the configuration please see the point 5. of the instructions below.
+> A Docker container with Ubuntu 14, ROS Indigo, Gazebo, Redis, Python 3 and SWI-Prolog (it is compatible with SICStus Prolog and contains all its dependencies, so you can buy and install it too inside this container). \
+
+ROS ad the catkin are still configured and you just can use all the environment without the need to configure them, but if you have to change something in the configuration please see the point 5. of the instructions below.
 
 ## Instructions:
 1. To get the Docker container:
@@ -86,3 +87,11 @@ xhost -local:root
 ```sh
 docker start "IndigoROSdisPyPl"
 ```
+
+## Contacts
+
+Agnese Salutari – @agnsal – agneses92@hotmail.it
+
+Distributed under the Apache License 2.0. See ``LICENSE`` for more information.
+
+[https://github.com/agnsal](https://github.com/agnsal)
