@@ -6,7 +6,7 @@ It is compatible with SICStus Prolog and contains all its dependencies, so you c
 ROS ad the catkin are still configured and you just can use all the environment without the need to configure them, but if you have to change something in the configuration please see the point 5. of the instructions below.
 
 
-![](Diagram.png)
+![](diagram.png)
 
 
 ## Instructions:
