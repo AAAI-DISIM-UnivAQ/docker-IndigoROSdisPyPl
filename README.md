@@ -1,9 +1,12 @@
 # docker-IndigoROSdisPyPl
+
 > A Docker container with Ubuntu 14, ROS Indigo, Gazebo, Redis, Python 3 and SWI-Prolog (it is compatible with SICStus Prolog and contains all its dependencies, so you can buy and install it too inside this container).
 
 ROS ad the catkin are still configured and you just can use all the environment without the need to configure them, but if you have to change something in the configuration please see the point 5. of the instructions below.
 
+
 ## Instructions:
+
 1. To get the Docker container:
 ```sh
 docker pull agnesesalutari/docker-indigorosdispypl
@@ -88,6 +91,7 @@ xhost -local:root
 docker start "IndigoROSdisPyPl"
 ```
 
+
 ## Contacts
 
 Agnese Salutari – agneses92@hotmail.it
@@ -95,3 +99,12 @@ Agnese Salutari – agneses92@hotmail.it
 Distributed under the Apache License 2.0. See ``LICENSE`` for more information.
 
 [https://github.com/agnsal](https://github.com/agnsal)
+
+
+## Contributing
+
+1. Fork it (<https://github.com/yourname/yourproject/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
