@@ -4,7 +4,9 @@ ROS ad the catkin workspace are still configured and you just can use all the en
 
 ## Instructions:
 1.  **To get the Docker container:** \
-        &nbsp; docker pull agnesesalutari/docker-indigorosdispypl
+        ```sh
+        docker pull agnesesalutari/docker-indigorosdispypl
+        ```
 2.  **To allow visualization:** \
         &nbsp; xhost +local:root
 3.  **To run the container (you have tu use this command for the very first time you run the container only):** \
