@@ -90,7 +90,7 @@ docker start "IndigoROSdisPyPl"
 
 ## Contacts
 
-Agnese Salutari – @agnsal – agneses92@hotmail.it
+Agnese Salutari – agneses92@hotmail.it
 
 Distributed under the Apache License 2.0. See ``LICENSE`` for more information.
 
