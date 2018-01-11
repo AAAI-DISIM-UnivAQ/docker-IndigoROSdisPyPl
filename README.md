@@ -9,7 +9,7 @@ ROS ad the catkin are still configured and you just can use all the environment 
 ![](header.png)
 
 
-## Instructions:
+## Instructions
 
 1. To get the Docker container:
 ```sh
